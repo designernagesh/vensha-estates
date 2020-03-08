@@ -1,0 +1,146 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+@font-face {
+	font-family: 'SEGOEUI';
+	src: url('../fonts/SEGOEUI.eot'); /* IE9 Compat Modes */
+	src: url('../fonts/SEGOEUI.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('../fonts/SEGOEUI.woff') format('woff'), /* Modern Browsers */ url('../fonts/SEGOEUI.ttf') format('truetype'), /* Safari, Android, iOS */ url('../fonts/SEGOEUI.svg#svgFontName') format('svg'); /* Legacy iOS */
+	font-weight: normal;
+	font-style: normal;
+}
+body {font-family:"SEGOEUI";	font-size: 15px; line-height:21px;	font-weight: normal;	margin:0px;	padding:0px; color:#4d4d4f;	background:url(../images/body-bg.jpg) top left repeat;}
+html, body {height: 100%;}
+
+img{border:none;}
+ul, li, input{margin:0px; padding:0px; list-style:none;}
+h1, h2, h3, h4, h5, h6, hr{margin:0px; padding:0px;}
+hr{background:#CCC; height:1px; border : 0px; margin:30px 0px;}
+a{color:#2e2d2c; text-decoration:none;}
+.clear{clear:both;}
+.left{float:left;}
+.right{float:right}
+h2 { font: normal 18px 'Oswald', sans-serif;  margin-bottom: 10px; color: #326b98;}
+h3 { font: normal 14px 'Oswald', sans-serif;  margin-bottom: 10px; color: #326b98;}
+h3{font-size:16px; margin:5px 0px 5px;}
+h4{font-size:16px; margin:15px 0px 15px;}
+h5{font-size:14px; margin:0px;}
+h6{font-size:10px; margin:0px;}
+p{margin-bottom:15px;}
+*:before, *:after {box-sizing: border-box;}
+
+.wrapper {width:1100px; background:#FFF; margin:0px auto;}
+.header {padding-left:40px;}
+.logo {margin:15px 0px 45px}
+.header .left-side {width:220px; margin-right:40px; float:left;}
+.banner {float:left; width:800px; height:500px;}
+.navigation{}
+ul.nav li {font-family: 'Oswald', sans-serif; border-bottom:1px solid #CCC; margin-bottom:15px; padding-bottom:5px;}
+ul.nav li a {font-size: 24px;}
+ul.nav li a:hover {color: #ef9a49;}
+ul.nav li a.active {color: #ef9a49;}
+.content-wrapper {width:1020px; padding:30px 40px 0px; clear: both}
+.ad {width:250px; margin-right:30px; float:left}
+.welcome h1 {font-family: 'Oswald', sans-serif; margin-bottom:15px; color:#ef9a49; font-size:25px;}
+.welcome p {line-height:24px;}
+.welcome a {background:#ef9a49; color:#FFF; padding:5px 20px; margin:15px 0px 0px 0px; float:right;}
+.welcome a:hover {background:#326b98;}
+.page-content {margin:10px 0px;}
+.row{float:left;  margin-bottom:15px;}
+ul.highlights {width: 480px; float:left; margin-right:20px;}
+ul.highlights li {list-style:disc; margin:0px 0px 8px 30px; font-size:17px }
+.projects h1, .page h1 {color: #326b98; font-family: 'Oswald', sans-serif;  margin-bottom: 20px; font-size:25px;}
+.projects .left-side {float:left}
+ul.images {width:515px; float:left}
+ul.images li {color:#FFF; text-align:center; width:250px; float:left;}
+ul.images li p {line-height:40px; margin-bottom: 0px; text-transform:uppercase; font-size:18px}
+ul.images li.box1{background:#4daf34;  margin:0px 15px 15px 0px;}
+ul.images li.box2{background:#326b98;  margin:0px 0px 15px 0px;}
+ul.images li.box3{background:#6c6c6d; margin-right:15px;}
+ul.images li.box4{background:#ef9a49}
+.page {margin-left:40px; width:1060px;}
+.page .left-side {width:220px; margin-right:40px; float:left;}
+.page .right-side {width:800px; float:left; margin-bottom:30px}
+.page .banner {height:250px; border-bottom:4px solid #ef9a49; margin-bottom:30px;}
+.page .content {margin-right:40px;}
+.big-font { font-size:20px; color: #ef9a49;}
+/****************************** 
+About Us Page CSS Starts Here 
+*/
+.about dl {float:left; width:225px; vertical-align:top; margin-right:28px;}
+.about dt {font-weight:bold; margin-bottom:5px; color: #ef9a49;}
+.about dd {margin:0 0 5px 15px;display: list-item; list-style-type: disc;}
+/****************************** 
+PROJECTs Page CSS Starts Here 
+*/
+.lead h1 {margin-bottom:15px; color:#FFF !important;}
+.lead {background:#ef9a49; color:#FFF; padding:0 20px 20px; font-size:18px;}
+.lead  .big-font {font-size:26px; color: #FFF; line-height: 30px;}
+.lead li {list-style: disc; margin:0 0 7px 20px;}
+.project ul {margin-left:15px;}
+.project ul li {list-style: disc; margin-bottom:5px;}
+.location {width:350px; margin:20px 60px 20px 0px; float:left;}
+.layout {float:left; padding:5px 20px 10px ; width:306px;  background:#F1F2F2; border:2px solid #CCC;  margin:20px 0px;}
+a.download { background:url(../images/download.png) top center no-repeat; display:block; margin:0px 0px 15px 0px; text-align:center; padding-top:105px; color:#e9802e; font-weight:bold;}
+a.download:hover { background:url(../images/download-hover.png) top center no-repeat; color:#326b98;}
+.villa{background:#ef9a49; color:#FFF; padding:10px 0; font-size:15px; text-align:center; line-height:24px; margin-bottom:15px;}
+
+/****************************** 
+FAQs Page CSS Starts Here 
+*/
+ol.faqs {margin-left:15px;}
+ol.faqs li {list-style:decimal; margin-bottom:15px;}
+ol.faqs li span {font-weight:bold; display:block; margin-bottom:5px;}
+ol.faqs li ul li {list-style:disc; margin-left:15px; margin-bottom:5px;}
+
+/****************************** 
+Contact Page CSS Starts Here 
+*/
+.contact-form {width:350px; float:left;  margin-right: 40px;}
+.proj-location {width:370px; float:left;}
+.contact-form h2 { font: normal 18px 'Oswald', sans-serif;  margin-bottom: 0px;color: #326b98;}
+.contact-form input[type="text"], .contact-form textarea {background-color: whitesmoke; border: 1px solid #c5c5c5;  min-height: 30px;
+    width: 100%;box-sizing: border-box;}
+.contact-form textarea {min-height: 100px;}
+.contact-form .btn {background-color: #ef9a49; color: #fff; border:0px; cursor:pointer; color: #fff; font-weight: bold;
+    outline: medium none !important; padding: 8px 18px; transition: all 0.3s ease 0s; margin:20px 0px 30px;}
+.contact-form .btn:hover {background: #326b98;}
+.contact-form label {display: inline-block; margin:15px 0px 5px;}
+.map {margin-bottom:30px;}
+
+/****************************** 
+Thankyou Page CSS Starts Here 
+*/
+.thanku{ min-height:300px}
+.info{text-align:center; margin-top:30px}
+.info span {font-size:32px; margin-bottom:30px; display:block}
+
+/****************************** 
+FOOTER CSS Starts Here 
+*/
+.footer{width:100%; color:#FFF; background:#31353d; overflow:hidden; font-size:14px; margin:0px;}
+.footer-wrapper{width:1100px; margin:20px auto 0px; overflow:hidden; padding:10px 0px 20px;}
+.footer p {margin-bottom:5px;}
+.footer a {color:#FFF;}
+.footer a:hover {text-decoration:underline;}
+.footer-wrapper .left-side {float:left;}
+.footer-wrapper .right-side {float:right;}
+.footer span{display:block; padding-left:35px; margin-bottom:10px; width:235px;}
+span.address {background:url(../images/address.png) left 8px no-repeat}
+span.phone {background:url(../images/phone.png) left center no-repeat}
+span.mail {background:url(../images/email.png) left 0px no-repeat}
+
+ul.social-footer {margin-top:50px;}
+ul.social-footer li {float:left; width:36px; height:36px; margin-right:5px;}
+ul.social-footer li a {display:block; background-image:url(../images/footer-social-icons.png); background-repeat:no-repeat; width:36px; height:36px; } 
+ul.social-footer li a.facebook {background-position:0px 0px;}
+ul.social-footer li a.facebook:hover {background-position:0px -36px; text-decoration:none;}
+ul.social-footer li a.twitter {background-position:-43px 0px;}
+ul.social-footer li a.twitter:hover {background-position:-43px -36px; text-decoration:none;}
+ul.social-footer li a.linkedin {background-position:-87px 0px;}
+ul.social-footer li a.linkedin:hover {background-position:-87px -36px; text-decoration:none;}
+ul.social-footer li a.googleplus {background-position:-130px 0px;}
+ul.social-footer li a.googleplus:hover {background-position:-130px -36px; text-decoration:none;}
